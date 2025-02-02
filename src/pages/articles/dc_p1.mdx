@@ -1,0 +1,42 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Jianyue Hugo Liang',
+  date: '2025-02-03',
+  title: 'Data Centre from 0 to 1 - Part 1',
+  description:
+    'This is a series of my journey from a simple Synology to Data Centre.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+## Preface
+
+This is a series of blogs that recorded my journey from a Synology NAS to build a data centre. In this series, it will contain a lot of technological information and personal thought. It might contains some mistakes or error in these series, if you found any of those errors please send a email to [ja@jhl.hk](mailto:ja@jhl.hk). 
+
+## Synology DS920+
+
+This is where my journey starts, a DS920+ my father bought for my family file station. The first step to private server and services. It was about 5 years ago, one day my father told me that he got a private NAS for the family. I was surprised and started digging all the functions in Synology NAS system. When I found out it does not have any download speed limit like Baidu Cloud Storage services, and it supports files share and editing. It was a fantastic world for a 12 years old boy who enthusiastically interested in Technology. A few years later, due to my father's jobs change my family moved to Tokyo. We brought the NAS with us. 
+
+Once, when I chat with my cousin, another enthusiast in server industry and private services, he told me that I was not discovered all the functions that DS920+ can do. He introduced one of the useful applications named Docker which it can deploy some applications in virtual and isolated environments with low cost of CPU and RAM. Nevertheless, DS920+ supported virtual machine which I can created a windows inside of it. It was really incredible for me at that time. I used to sending cash to VPS providers for a VM machine which I can just simply click on my own NAS server. Later on, I started to pick the saving option which is using the DS920+ for most. After installed the Windows VM on it. I figured out that I am short on RAMS and CPUS for running a windows on it. My cousin shared his server to me which I had a windows VM and several ports for forwarding some services. At same time, I bought my first domain `jianyuelab.cc`.
+
+## PVE - A real server
+
+After tasted the sweet from servers, I asked my father for a non-used PC for fun. Then, I got my first server (PC) 2/12/22:
+
+```
+CPU: I7-4790
+RAM: DDR3 4*4GB which 16 GB at total
+SSD: 240 GB Samsung + 6T HDD
+```
+
+It looks sucks, but I finally started some more advanced work on it. I tried a few systems, Truenas, Windows, Unraid and PVE. After evaluate all of them and listen to the advise from my cousin, I chose PVE as the host system and created several VM for services. Which I found out that I need more and more.
+
+Here comes my enterprise level server: JianyueLab - Tokyo 27/5/23:
+
+
+
+> Still Updating | Part 1 is not finished yet.
+
+
+
