@@ -189,7 +189,7 @@ export default function Home({ articles }) {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com/jianyuehugo"
+              href="https://jhl.hk/x"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
@@ -199,27 +199,27 @@ export default function Home({ articles }) {
               icon={DiscordIcon}
             />
             <SocialLink
-              href="https://t.me/jianyuehugo"
+              href="https://jhl.hk/tg"
               aria-label="Contact on Telegram"
               icon={TelegramIcon}
             />
             <SocialLink
-              href="https://www.instagram.com/jianyuehugo/"
+              href="https://jhl.hk/ins"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com/JianyueLab"
+              href="https://jhl.hk/github"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://afdian.com/a/JianyueHugo"
+              href="https://jhl.hk/afdian"
               aria-label="Donate on Afdian"
               icon={AfdianIcon}
             />
             <SocialLink
-                href="https://www.linkedin.com/in/jianyuehugoliang/"
+                href="https://jhl.hk/linkedin"
                 aria-label="Contact on LinkedIn"
                 icon={LinkedInIcon}
             />
