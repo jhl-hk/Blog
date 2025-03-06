@@ -79,25 +79,25 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://www.linkedin.com/in/jianyuehugoliang/" icon={LinkedInIcon}>
+              <SocialLink href="https://jhl.hk/linkedin" icon={LinkedInIcon}>
                 Contact on LinkedIn
               </SocialLink>
-              <SocialLink href="https://twitter.com/jianyuehugo" icon={TwitterIcon} className="mt-4">
+              <SocialLink href="https://jhl.hk/x" icon={TwitterIcon} className="mt-4">
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://t.me/valorunknown" icon={TelegramIcon} className="mt-4">
+              <SocialLink href="https://jhl.hk/tg" icon={TelegramIcon} className="mt-4">
                 Contact on Telegram
               </SocialLink>
-              <SocialLink href="https://www.instagram.com/jianyuehugo/" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://jhl.hk/ins" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="https://github.com/JianyueLab" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://jhl.hk/github" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
               <SocialLink href="https://discord.gg/YRf2RAWwcp" icon={DiscordIcon} className="mt-4">
                 Join Discord Server
               </SocialLink>
-              <SocialLink href="https://afdian.com/a/JianyueHugo" icon={AfdianIcon} className="mt-4">
+              <SocialLink href="https://jhl.hk/afdian" icon={AfdianIcon} className="mt-4">
                 Donate on Afdian
               </SocialLink>
               <SocialLink
